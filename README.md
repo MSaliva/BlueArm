@@ -24,6 +24,6 @@ On start up the user can select the device, which has to be properly advertised,
 
 To establish a connection between the BLE device and the client device I choose to use Bleak.
 
-To store the data received I decided to use Pandas which is a Python library for data manipulation and analysis. It provides flexible, and easy-to-use data structures like Series and DataFrames for handling datasets efficiently
+To store and visualize the data received I decided to use Pandas.
 # Installation
 Required package: Bleak, Pandas, Consolemenu

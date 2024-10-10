@@ -33,6 +33,7 @@ The following features are the reason why i choose to go with Bleak:
 4. Reading and Writing Characteristics: You can read from or write to characteristics of a BLE device, which is how data is usually exchanged in a BLE communication session.
 5. Notifications and Indications: The library supports subscribing to characteristic notifications and indications, which is useful for receiving real-time data updates from BLE devices.
 6. Asynchronous API: The bleak library uses Python's asyncio for most of its operations, which allows for efficient asynchronous programming, making it suitable for real-time environments.
+
 Bleak simplifies Bluetooth Low Energy communication in Python but it also has its drawbacks. Since It operates at a higher level, it may not provide the performance needed. Managing multiple connections can be challenging due to its asynchronous nature and may lead to more complicated code and potential race conditions. Errors in the underlying stack can be difficult to debug, issues such as connection failures and disconnections might occur and fixing them can be tedious.
 
 To store the data received I decided to use Pandas which is a Python library for data manipulation and analysis. It provides flexible, and easy-to-use data structures like Series and DataFrames for handling datasets efficiently
